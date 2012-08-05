@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4BEA6015CBF4FC002CB8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4BEA5F15CBF4FC002CB8D7 /* UIKit.framework */; };
+		9B4BEA6215CBF4FC002CB8D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4BEA6115CBF4FC002CB8D7 /* Foundation.framework */; };
+		9B4BEA6415CBF4FC002CB8D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4BEA6315CBF4FC002CB8D7 /* CoreGraphics.framework */; };
+		9B4BEA6A15CBF4FC002CB8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA6815CBF4FC002CB8D7 /* InfoPlist.strings */; };
+		9B4BEA6C15CBF4FC002CB8D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BEA6B15CBF4FC002CB8D7 /* main.m */; };
+		9B4BEA7015CBF4FC002CB8D7 /* DrawingDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BEA6F15CBF4FC002CB8D7 /* DrawingDemoAppDelegate.m */; };
+		9B4BEA7315CBF4FC002CB8D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA7115CBF4FC002CB8D7 /* MainStoryboard.storyboard */; };
+		9B4BEA7615CBF4FC002CB8D7 /* DrawingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BEA7515CBF4FC002CB8D7 /* DrawingDemoViewController.m */; };
+		9B4BEA7E15CBF615002CB8D7 /* SmoothLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BEA7D15CBF529002CB8D7 /* SmoothLineView.m */; };
+		9B4BEA8115CBFBAD002CB8D7 /* eraser_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA7F15CBFBAD002CB8D7 /* eraser_on.png */; };
+		9B4BEA8215CBFBAD002CB8D7 /* pen_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA8015CBFBAD002CB8D7 /* pen_on.png */; };
+		9B4BEA8715CBFCE5002CB8D7 /* pen_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA8515CBFCE5002CB8D7 /* pen_off.png */; };
+		9B4BEA8915CBFDFE002CB8D7 /* eraser_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BEA8815CBFDFE002CB8D7 /* eraser_off.png */; };
+		9B76BE0915CE0FA300C00185 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B76BE0715CE0F6500C00185 /* GCDAsyncSocket.m */; };
+		9B76BE0B15CE0FA900C00185 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76BE0A15CE0FA900C00185 /* CFNetwork.framework */; };
+		9B76BE0D15CE0FAE00C00185 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76BE0C15CE0FAD00C00185 /* Security.framework */; };
+		9B76BE1A15CE192400C00185 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B76BE1415CE17A500C00185 /* MBProgressHUD.m */; };
+		9BF921F215CCC46900D59386 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF921F115CCC46900D59386 /* trash.png */; };
+		9BF9220115CD024400D59386 /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9220015CD024400D59386 /* NetworkViewController.m */; };
+		9BF9220415CD0BC500D59386 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9220315CD0BC500D59386 /* HelpViewController.m */; };
+		9BF9220615CD0C6A00D59386 /* helpPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9220515CD0C6A00D59386 /* helpPage.png */; };
+		9BF9220815CD0C6E00D59386 /* startDraw.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9220715CD0C6E00D59386 /* startDraw.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B4BEA5B15CBF4FC002CB8D7 /* DrawingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4BEA5F15CBF4FC002CB8D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B4BEA6115CBF4FC002CB8D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B4BEA6315CBF4FC002CB8D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B4BEA6715CBF4FC002CB8D7 /* DrawingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingDemo-Info.plist"; sourceTree = "<group>"; };
+		9B4BEA6915CBF4FC002CB8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B4BEA6B15CBF4FC002CB8D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B4BEA6D15CBF4FC002CB8D7 /* DrawingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9B4BEA6E15CBF4FC002CB8D7 /* DrawingDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingDemoAppDelegate.h; sourceTree = "<group>"; };
+		9B4BEA6F15CBF4FC002CB8D7 /* DrawingDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingDemoAppDelegate.m; sourceTree = "<group>"; };
+		9B4BEA7215CBF4FC002CB8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9B4BEA7415CBF4FC002CB8D7 /* DrawingDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingDemoViewController.h; sourceTree = "<group>"; };
+		9B4BEA7515CBF4FC002CB8D7 /* DrawingDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingDemoViewController.m; sourceTree = "<group>"; };
+		9B4BEA7C15CBF529002CB8D7 /* SmoothLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmoothLineView.h; sourceTree = "<group>"; };
+		9B4BEA7D15CBF529002CB8D7 /* SmoothLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmoothLineView.m; sourceTree = "<group>"; };
+		9B4BEA7F15CBFBAD002CB8D7 /* eraser_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser_on.png; sourceTree = "<group>"; };
+		9B4BEA8015CBFBAD002CB8D7 /* pen_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen_on.png; sourceTree = "<group>"; };
+		9B4BEA8515CBFCE5002CB8D7 /* pen_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen_off.png; sourceTree = "<group>"; };
+		9B4BEA8815CBFDFE002CB8D7 /* eraser_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser_off.png; sourceTree = "<group>"; };
+		9B76BE0615CE0F6500C00185 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		9B76BE0715CE0F6500C00185 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9B76BE0A15CE0FA900C00185 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B76BE0C15CE0FAD00C00185 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B76BE1315CE17A500C00185 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9B76BE1415CE17A500C00185 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9BF921F115CCC46900D59386 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		9BF921FF15CD024400D59386 /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		9BF9220015CD024400D59386 /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		9BF9220215CD0BC500D59386 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		9BF9220315CD0BC500D59386 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		9BF9220515CD0C6A00D59386 /* helpPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpPage.png; sourceTree = "<group>"; };
+		9BF9220715CD0C6E00D59386 /* startDraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startDraw.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B4BEA5815CBF4FC002CB8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76BE0D15CE0FAE00C00185 /* Security.framework in Frameworks */,
+				9B76BE0B15CE0FA900C00185 /* CFNetwork.framework in Frameworks */,
+				9B4BEA6015CBF4FC002CB8D7 /* UIKit.framework in Frameworks */,
+				9B4BEA6215CBF4FC002CB8D7 /* Foundation.framework in Frameworks */,
+				9B4BEA6415CBF4FC002CB8D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B4BEA5015CBF4FC002CB8D7 = {
+			isa = PBXGroup;
+			children = (
+				9B4BEA6515CBF4FC002CB8D7 /* DrawingDemo */,
+				9B4BEA5E15CBF4FC002CB8D7 /* Frameworks */,
+				9B4BEA5C15CBF4FC002CB8D7 /* Products */,
+				9B4BEA8315CBFBB2002CB8D7 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4BEA5C15CBF4FC002CB8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BEA5B15CBF4FC002CB8D7 /* DrawingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4BEA5E15CBF4FC002CB8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B76BE0C15CE0FAD00C00185 /* Security.framework */,
+				9B76BE0A15CE0FA900C00185 /* CFNetwork.framework */,
+				9B4BEA5F15CBF4FC002CB8D7 /* UIKit.framework */,
+				9B4BEA6115CBF4FC002CB8D7 /* Foundation.framework */,
+				9B4BEA6315CBF4FC002CB8D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4BEA6515CBF4FC002CB8D7 /* DrawingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B76BE1515CE17A900C00185 /* MBProgressHUD */,
+				9B76BE0E15CE0FEB00C00185 /* GCDAsyncSocket */,
+				9B4BEA6E15CBF4FC002CB8D7 /* DrawingDemoAppDelegate.h */,
+				9B4BEA6F15CBF4FC002CB8D7 /* DrawingDemoAppDelegate.m */,
+				9BF9220215CD0BC500D59386 /* HelpViewController.h */,
+				9BF9220315CD0BC500D59386 /* HelpViewController.m */,
+				9BF921FF15CD024400D59386 /* NetworkViewController.h */,
+				9BF9220015CD024400D59386 /* NetworkViewController.m */,
+				9B4BEA7415CBF4FC002CB8D7 /* DrawingDemoViewController.h */,
+				9B4BEA7515CBF4FC002CB8D7 /* DrawingDemoViewController.m */,
+				9B4BEA7C15CBF529002CB8D7 /* SmoothLineView.h */,
+				9B4BEA7D15CBF529002CB8D7 /* SmoothLineView.m */,
+				9B4BEA7115CBF4FC002CB8D7 /* MainStoryboard.storyboard */,
+				9B4BEA6615CBF4FC002CB8D7 /* Supporting Files */,
+			);
+			path = DrawingDemo;
+			sourceTree = "<group>";
+		};
+		9B4BEA6615CBF4FC002CB8D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BEA6715CBF4FC002CB8D7 /* DrawingDemo-Info.plist */,
+				9B4BEA6815CBF4FC002CB8D7 /* InfoPlist.strings */,
+				9B4BEA6B15CBF4FC002CB8D7 /* main.m */,
+				9B4BEA6D15CBF4FC002CB8D7 /* DrawingDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B4BEA8315CBFBB2002CB8D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BEA8815CBFDFE002CB8D7 /* eraser_off.png */,
+				9B4BEA8515CBFCE5002CB8D7 /* pen_off.png */,
+				9B4BEA7F15CBFBAD002CB8D7 /* eraser_on.png */,
+				9B4BEA8015CBFBAD002CB8D7 /* pen_on.png */,
+				9BF921F115CCC46900D59386 /* trash.png */,
+				9BF9220515CD0C6A00D59386 /* helpPage.png */,
+				9BF9220715CD0C6E00D59386 /* startDraw.png */,
+			);
+			name = Resources;
+			path = DrawingDemo;
+			sourceTree = "<group>";
+		};
+		9B76BE0E15CE0FEB00C00185 /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9B76BE0615CE0F6500C00185 /* GCDAsyncSocket.h */,
+				9B76BE0715CE0F6500C00185 /* GCDAsyncSocket.m */,
+			);
+			name = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+		9B76BE1515CE17A900C00185 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9B76BE1315CE17A500C00185 /* MBProgressHUD.h */,
+				9B76BE1415CE17A500C00185 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4BEA5A15CBF4FC002CB8D7 /* DrawingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4BEA7915CBF4FC002CB8D7 /* Build configuration list for PBXNativeTarget "DrawingDemo" */;
+			buildPhases = (
+				9B4BEA5715CBF4FC002CB8D7 /* Sources */,
+				9B4BEA5815CBF4FC002CB8D7 /* Frameworks */,
+				9B4BEA5915CBF4FC002CB8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingDemo;
+			productName = DrawingDemo;
+			productReference = 9B4BEA5B15CBF4FC002CB8D7 /* DrawingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B4BEA5215CBF4FC002CB8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DrawingDemo;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = BuG.BS;
+			};
+			buildConfigurationList = 9B4BEA5515CBF4FC002CB8D7 /* Build configuration list for PBXProject "DrawingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B4BEA5015CBF4FC002CB8D7;
+			productRefGroup = 9B4BEA5C15CBF4FC002CB8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4BEA5A15CBF4FC002CB8D7 /* DrawingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4BEA5915CBF4FC002CB8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4BEA6A15CBF4FC002CB8D7 /* InfoPlist.strings in Resources */,
+				9B4BEA7315CBF4FC002CB8D7 /* MainStoryboard.storyboard in Resources */,
+				9B4BEA8115CBFBAD002CB8D7 /* eraser_on.png in Resources */,
+				9B4BEA8215CBFBAD002CB8D7 /* pen_on.png in Resources */,
+				9B4BEA8715CBFCE5002CB8D7 /* pen_off.png in Resources */,
+				9B4BEA8915CBFDFE002CB8D7 /* eraser_off.png in Resources */,
+				9BF921F215CCC46900D59386 /* trash.png in Resources */,
+				9BF9220615CD0C6A00D59386 /* helpPage.png in Resources */,
+				9BF9220815CD0C6E00D59386 /* startDraw.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B4BEA5715CBF4FC002CB8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76BE1A15CE192400C00185 /* MBProgressHUD.m in Sources */,
+				9B76BE0915CE0FA300C00185 /* GCDAsyncSocket.m in Sources */,
+				9B4BEA7E15CBF615002CB8D7 /* SmoothLineView.m in Sources */,
+				9B4BEA6C15CBF4FC002CB8D7 /* main.m in Sources */,
+				9B4BEA7015CBF4FC002CB8D7 /* DrawingDemoAppDelegate.m in Sources */,
+				9B4BEA7615CBF4FC002CB8D7 /* DrawingDemoViewController.m in Sources */,
+				9BF9220115CD024400D59386 /* NetworkViewController.m in Sources */,
+				9BF9220415CD0BC500D59386 /* HelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B4BEA6815CBF4FC002CB8D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4BEA6915CBF4FC002CB8D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B4BEA7115CBF4FC002CB8D7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4BEA7215CBF4FC002CB8D7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B4BEA7715CBF4FC002CB8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9B4BEA7815CBF4FC002CB8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4BEA7A15CBF4FC002CB8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingDemo/DrawingDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawingDemo/DrawingDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B4BEA7B15CBF4FC002CB8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingDemo/DrawingDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawingDemo/DrawingDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B4BEA5515CBF4FC002CB8D7 /* Build configuration list for PBXProject "DrawingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4BEA7715CBF4FC002CB8D7 /* Debug */,
+				9B4BEA7815CBF4FC002CB8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4BEA7915CBF4FC002CB8D7 /* Build configuration list for PBXNativeTarget "DrawingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4BEA7A15CBF4FC002CB8D7 /* Debug */,
+				9B4BEA7B15CBF4FC002CB8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B4BEA5215CBF4FC002CB8D7 /* Project object */;
+}

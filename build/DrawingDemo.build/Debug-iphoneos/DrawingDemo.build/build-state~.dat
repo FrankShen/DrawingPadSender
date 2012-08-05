@@ -1,0 +1,409 @@
+TDrawingDemo
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/Info.plist DrawingDemo/DrawingDemo-Info.plist
+cProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth DrawingDemo/DrawingDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o /Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o /Users/BuG/Project/DrawingDemo/DrawingDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo normal armv7
+cGenerateDSYMFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo
+cCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_on.png DrawingDemo/eraser_on.png
+cCompileStoryboard /Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/InfoPlist.strings DrawingDemo/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_on.png DrawingDemo/pen_on.png
+cCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_off.png DrawingDemo/eraser_off.png
+cCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_off.png DrawingDemo/pen_off.png
+cProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision
+cTouch /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent
+cCodeSign /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000005010DE7100000000000001A7
+t1343282801
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000005010DE7100000000000001E5
+t1343282801
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005010DE7200000000003AE430
+t1343282802
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005010DE73000000000052C940
+t1343282803
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005010DE730000000000798EA0
+t1343282803
+s7966368
+
+N/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision
+c0000000050152DBA0000000000002827
+t1343565242
+s10279
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemo-Prefix.pch
+c00000000501BBD7C0000000000000145
+t1343995260
+s325
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m
+c00000000501BBD7C00000000000007F4
+t1343995260
+s2036
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m
+c00000000501BE79E00000000000004C2
+t1344006046
+s1218
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m
+c00000000501BED1F00000000000013AF
+t1344007455
+s5039
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/InfoPlist.strings
+c00000000501BBD7C000000000000002D
+t1343995260
+s45
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard
+c00000000501BECFF0000000000001AE2
+t1344007423
+s6882
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_off.png
+c00000000501BC6680000000000000E7E
+t1343997544
+s3710
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_on.png
+c00000000501BC3C30000000000000F50
+t1343996867
+s3920
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/main.m
+c00000000501BBD7C0000000000000162
+t1343995260
+s354
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/pen_off.png
+c00000000501BC543000000000000109B
+t1343997251
+s4251
+
+N/Users/BuG/Project/DrawingDemo/DrawingDemo/pen_on.png
+c00000000501BC30C0000000000001142
+t1343996684
+s4418
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/Info.plist
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/PkgInfo
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_off.png
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_on.png
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_off.png
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_on.png
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemo.LinkFileList
+c00000000501BED940000000000000201
+t1344007572
+s513
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o
+t2
+s0
+
+N/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth
+t2
+s0
+
+NDrawingDemo/DrawingDemo-Info.plist
+c00000000501BC3DD00000000000004A7
+t1343996893
+s1191
+
+CBuild AST from /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingDemo/DrawingDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc2141d1425ccb541^9486321425ccb541^---0#1#0#--18"Check dependencies36"A5F9D0DB-00C7-4219-8E53-435A6FFBC6E4-
+
+CCodeSign /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+s365700373.561430
+e365700373.808901
+r1
+xCodeSign
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"CodeSign build/Debug-iphoneos/DrawingDemo.app6fd38f1525ccb541^9814cf1525ccb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/0000000000000000^780"CodeSign build/Debug-iphoneos/DrawingDemo.app    cd /Users/BuG/Project/DrawingDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 240356a4fa4b374472e30f46cce7b10a898d6db9 --resource-rules=/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist --entitlements /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app36"2E33EBD1-DB92-4FCC-BDD7-37129BD3288C-
+
+CCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365700372.504707
+e365700372.599487
+r1
+xCompileC
+xbuild/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o
+x/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.mf65d811425ccb541^ea77991425ccb541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m0000000000000000^3241"CompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o DrawingDemo/DrawingDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-generated-files.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-own-target-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-project-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.d --serialize-diagnostics /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.dia -c /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoAppDelegate.m -o /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoAppDelegate.o36"0472F41C-AD29-4620-A983-8F2ED6BDF324-
+
+CCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365700372.504720
+e365700372.611374
+r1
+xCompileC
+xbuild/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o
+x/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.mf25e811425ccb541^99839c1425ccb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m0000000000000000^3259"CompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o DrawingDemo/DrawingDemoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-generated-files.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-own-target-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-project-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.d --serialize-diagnostics /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.dia -c /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemoViewController.m -o /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemoViewController.o36"AFFF9687-37B4-4C40-B0AF-7D793B5DE0BF-
+
+CCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o /Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365700372.504697
+e365700372.644324
+r1
+xCompileC
+xbuild/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o
+x/Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.mcd5b811425ccb541^9df2a41425ccb541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m0000000000000000^3193"CompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o DrawingDemo/SmoothLineView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-generated-files.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-own-target-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-project-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.d --serialize-diagnostics /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.dia -c /Users/BuG/Project/DrawingDemo/DrawingDemo/SmoothLineView.m -o /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/SmoothLineView.o36"4706833E-13E1-4F04-B2AB-C1B4E04D9222-
+
+CCompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o /Users/BuG/Project/DrawingDemo/DrawingDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365700372.504703
+e365700372.601238
+r1
+xCompileC
+xbuild/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o
+x/Users/BuG/Project/DrawingDemo/DrawingDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/BuG/Project/DrawingDemo/DrawingDemo/main.m9259811425ccb541^36ea991425ccb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/main.m0000000000000000^3133"CompileC build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o DrawingDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-generated-files.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-own-target-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-project-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.dia -c /Users/BuG/Project/DrawingDemo/DrawingDemo/main.m -o /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/main.o36"C28EF3A5-1A60-49B9-B0AF-A4953C25B9F4-
+
+CCompileStoryboard /Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard
+s365700373.192625
+e365700373.446599
+r1
+xCompileStoryboard
+x/Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard DrawingDemo/en.lproj/MainStoryboard.storyboardaa63311525ccb541^e754721525ccb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard0000000000000000^859"CompileStoryboard DrawingDemo/en.lproj/MainStoryboard.storyboard    cd /Users/BuG/Project/DrawingDemo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/MainStoryboard.storyboardc /Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"F638A4CB-2C09-4EF5-A84D-B6C160F20F81-
+
+CCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_off.png DrawingDemo/eraser_off.png
+s365700373.192650
+e365700373.377399
+r1
+xCopyPNGFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_off.png
+xDrawingDemo/eraser_off.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/eraser_off.png DrawingDemo/eraser_off.png2766311525ccb541^239e601525ccb541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_off.png0000000000000000^653"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/eraser_off.png DrawingDemo/eraser_off.png    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_off.png /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_off.png36"9680BC7E-54D6-40CA-9083-E161241BA26F-
+
+CCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_on.png DrawingDemo/eraser_on.png
+s365700373.192614
+e365700373.379125
+r1
+xCopyPNGFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_on.png
+xDrawingDemo/eraser_on.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/eraser_on.png DrawingDemo/eraser_on.png7863311525ccb541^0f0f611525ccb541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_on.png0000000000000000^649"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/eraser_on.png DrawingDemo/eraser_on.png    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BuG/Project/DrawingDemo/DrawingDemo/eraser_on.png /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/eraser_on.png36"0A61C214-841E-48D8-ADF6-DD54A408BB1F-
+
+CCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_off.png DrawingDemo/pen_off.png
+s365700373.192660
+e365700373.377429
+r1
+xCopyPNGFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_off.png
+xDrawingDemo/pen_off.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/pen_off.png DrawingDemo/pen_off.pngf565311525ccb541^cea5601525ccb541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/pen_off.png0000000000000000^641"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/pen_off.png DrawingDemo/pen_off.png    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BuG/Project/DrawingDemo/DrawingDemo/pen_off.png /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_off.png36"5D1C834A-3163-451D-9659-299BE5ADFFEB-
+
+CCopyPNGFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_on.png DrawingDemo/pen_on.png
+s365700373.192642
+e365700373.378351
+r1
+xCopyPNGFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_on.png
+xDrawingDemo/pen_on.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/pen_on.png DrawingDemo/pen_on.png3d65311525ccb541^55dc601525ccb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/pen_on.png0000000000000000^637"CopyPNGFile build/Debug-iphoneos/DrawingDemo.app/pen_on.png DrawingDemo/pen_on.png    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BuG/Project/DrawingDemo/DrawingDemo/pen_on.png /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/pen_on.png36"789A145D-06BB-4B94-8B89-5E6D7BE95910-
+
+CCopyStringsFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/InfoPlist.strings DrawingDemo/en.lproj/InfoPlist.strings
+s365700373.192635
+e365700373.235466
+r1
+xCopyStringsFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj/InfoPlist.strings
+xDrawingDemo/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy DrawingDemo/en.lproj/InfoPlist.strings0263311525ccb541^9d483c1525ccb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/en.lproj/InfoPlist.strings0000000000000000^554"CopyStringsFile build/Debug-iphoneos/DrawingDemo.app/en.lproj/InfoPlist.strings DrawingDemo/en.lproj/InfoPlist.strings    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/en.lproj -- DrawingDemo/en.lproj/InfoPlist.strings36"8D3CF459-E0ED-4F3D-9CBB-3BB7567A6DB9-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist
+s365700372.201872
+e365700372.204032
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist34be331425ccb541^363d341425ccb541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist000000000080d041^718"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app36"A620CC52-A7D7-4B8B-BD7E-AAC987245379-
+
+CGenerateDSYMFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo
+s365700373.162946
+e365700373.184413
+r1
+xGenerateDSYMFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generating /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM47c7291525ccb541^e3352f1525ccb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM000000000080d041^590"GenerateDSYMFile build/Debug-iphoneos/DrawingDemo.app.dSYM build/Debug-iphoneos/DrawingDemo.app/DrawingDemo    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo -o /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app.dSYM36"5256603D-4BF1-48B3-9F58-EA0EFED92874-
+
+CLd /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo normal armv7
+s365700372.651108
+e365700373.155994
+r1
+xLd
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo05c2a61425ccb541^e1ef271525ccb541^---0#0#0#--1022"Ld build/Debug-iphoneos/DrawingDemo.app/DrawingDemo normal armv7    cd /Users/BuG/Project/DrawingDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos -filelist /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/Objects-normal/armv7/DrawingDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/DrawingDemo36"B58F5795-F596-459A-90C6-62F4DDCA8B7A-
+
+CProcessInfoPlistFile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/Info.plist DrawingDemo/DrawingDemo-Info.plist
+s365700372.201890
+e365700372.205827
+r1
+xProcessInfoPlistFile
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/Info.plist
+xDrawingDemo/DrawingDemo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process DrawingDemo/DrawingDemo-Info.plist55be331425ccb541^eeb1341425ccb541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemo-Info.plist0000000000000000^726"ProcessInfoPlistFile build/Debug-iphoneos/DrawingDemo.app/Info.plist DrawingDemo/DrawingDemo-Info.plist    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DrawingDemo/DrawingDemo-Info.plist -genpkginfo /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/ResourceRules.plist -o /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/Info.plist36"C5DF1FA2-1DEA-4BBB-8912-14D479F0F859-
+
+CProcessPCH /Users/BuG/Library/Developer/Xcode/DerivedData/DrawingDemo-eqznpoorpewsukdhwzwcqlnxccrc/Index/PrecompiledHeaders/DrawingDemo-Prefix-gczxttrtgjuszsapusvmgwsyfuag_ast/DrawingDemo-Prefix.pch.pth DrawingDemo/DrawingDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth DrawingDemo/DrawingDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365700372.213659
+e365700372.498423
+r1
+xProcessPCH
+x/var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth
+xDrawingDemo/DrawingDemo-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile DrawingDemo/DrawingDemo-Prefix.pchffca361425ccb541^029b7f1425ccb541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemo-Prefix.pch0000000000000000^3239"ProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth DrawingDemo/DrawingDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-generated-files.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-own-target-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo-project-headers.hmap -I/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DerivedSources -F/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos --serialize-diagnostics /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.dia -c /Users/BuG/Project/DrawingDemo/DrawingDemo/DrawingDemo-Prefix.pch -o /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingDemo-Prefix-ccvqcaooohwqzrakpgfyxevjlpcf/DrawingDemo-Prefix.pch.d36"DF2DE81B-6FB8-4724-8F7A-7687FA847DC9-
+
+CProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision
+s365700373.525627
+e365700373.528153
+r1
+xProcessProductPackaging
+x/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"ProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision40a1861525ccb541^3b35871525ccb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision0000000000000000^662"ProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" -o /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app/embedded.mobileprovision36"6B0A4E0A-E81D-473D-A7C1-661C88EA2C09-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent
+s365700373.550164
+e365700373.553038
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent78ef8c1525ccb541^e6938d1525ccb541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent000000000080d041^738"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/BuG/Project/DrawingDemo/build/DrawingDemo.build/Debug-iphoneos/DrawingDemo.build/DrawingDemo.xcent36"EB735774-8D83-4EDB-84F3-C2148384B478-
+
+CTouch /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+s365700373.536604
+e365700373.542236
+r1
+xTouch
+x/Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app3b6d891525ccb541^4ed08a1525ccb541^---0#0#0#--359"Touch build/Debug-iphoneos/DrawingDemo.app    cd /Users/BuG/Project/DrawingDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/BuG/Project/DrawingDemo/build/Debug-iphoneos/DrawingDemo.app36"ADCC0C7A-E359-451F-AFC8-A8A844C37722-
+
